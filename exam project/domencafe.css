@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1500px;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    background-color: #F3F2EB;
+   }
+   
+   /* styling navigation bar */
+   .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #2B2927;
+    display: flex; /* items display in a row */
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* fixed position of navigation bar */
+   }
+   
+   /* styling text in the navigation bar */
+   .navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 70px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+   }
+   
+   .navbar a:hover {
+    text-decoration: underline;
+   }
+   
+   /* Styling logo */
+   .navbar img {
+    width: auto;
+    height: 90px;
+    padding: none;
+    margin-top: 10px;
+   }
+
+   /* containers with image on left and text on right*/
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+/* left-centered images */
+.left-image {
+    width: 523px;
+    height: auto;
+    padding-left: 272px;
+    padding-top: 106px;
+}
+
+.right-content {
+    width: 50%;
+   margin-left: 50px;
+}
+
+.icon-text-line {
+    margin-bottom: -30px; /* Adjust the value to control the space between icon-text-line elements */
+}
+
+.line-icon2 {
+    padding-bottom: 160px;
+}
+/* styling headers */
+h1 {
+    margin-top: 95px;
+    text-align:left;
+    font-size: 45px;
+    color: #2B2927;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-bottom: -30px;
+
+}
+
+/* styling paragraphs */
+p {
+    text-align: center;
+    font-size: 30px;
+    color: #2B2927;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+}
+
+/* styling divider-line between the photo and text */
+.divider {
+    width: 1409px;
+    height: 1px; /* Adjust the thickness of the line as needed */
+    background-color: #2B2927; 
+    margin: 83px auto; /* Center the line */
+}
+
+/* styling the whole section*/
+.section1 {
+    text-align: center;
+
+}
+
+/* styling text*/
+.left-content {
+    text-align: left;
+    margin-left: 263px;
+}
+
+/* styling header of left content*/
+.left-content h2 {
+    font-size: 45px;
+    color: #2B2927;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+/* styling paragraph*/
+.left-content p {
+    font-size: 30px;
+    color: #2B2927;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    text-align: left;
+}
+
+/* styling next paragraph*/
+.left-aligned-text {
+    text-align: left;
+    font-size: 16px; 
+    color: #555; 
+}
+
+/* styling container with big picture*/
+.image-container {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* styling big image*/
+.image-container img {
+    width: 1920px;
+    height: auto;
+}
+
+/* styling container with 3 images*/
+.image-container1 {
+    text-align: center;
+    margin: 20px auto; /* Center the image container */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* styling text next to the icons*/
+.line-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* styling icons*/
+.icon-text-line {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* styling 3 images */
+.gallery-image {
+    width: 569px; 
+    height: auto; 
+    margin: 0; 
+}
+/* adjusting green box */
+.green-box {
+    width: 1920px;
+    height: 588px;
+    flex: 1;
+    box-sizing: border-box;
+    background-color: #A1AC9E;
+    margin-top: 60px;
+}
+
+iframe {
+    margin-top: 30px;
+}
+
+/* styling footer*/
+footer {
+    color: #F3F2EB;
+    height: 324px;
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* adjusting logo in the footer*/
+.footer img {
+    width: 350px;
+    height: auto;
+    margin-left: 150px;
+margin-top: 50px;
+}
+
+/*adjusting SoMe icons*/
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+/*styling SoMe icons*/
+.social-icons img {
+    width: 90px; 
+    height: auto;
+    margin-right: 70px;
+    margin-top: 80px;
+}
+
+/*adjusting nav bar in the footer*/
+nav {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*styling nav bar in the footer*/
+nav a {
+    color: #2B2927;
+    text-decoration: none;
+    margin: 25px 0; /* Add margin between links */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.en {
+    margin-right: -130px;
+
+}

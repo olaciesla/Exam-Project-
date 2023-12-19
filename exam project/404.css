@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents horizontal scroll due to the full-width image */
+}
+
+.homepage-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}

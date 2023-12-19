@@ -1,0 +1,305 @@
+
+body {
+ margin: 0;
+ padding: 0;
+ height: 1500px;
+ display: grid;
+ grid-template-rows: 50px 1fr;
+ background-color: #F3F2EB;
+}
+
+/* styling navigation bar */
+.navbar {
+ width: 100%;
+ height: 100px;
+ background-color: #2B2927;
+ display: flex; /* items display in a row */
+ justify-content: space-between;
+ align-items: center;
+ position: fixed; /* fixed position of navigation bar */
+}
+
+/* styling text in the navigation bar */
+.navbar a {
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 70px;
+ text-decoration: none;
+ font-size: 30px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Styling logo */
+.navbar img {
+ width: auto;
+ height: 90px;
+ padding: none;
+ margin-top: 10px;
+}
+
+   /* styling image on top of the website */
+   .homepage-image img {
+    width: 1920px;
+    height: auto;
+   }
+
+   /* styling overlay text */
+.overlay-text {
+    position: absolute; /* It takes the element out of the normal flow */
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* These properties, when used with position: absolute;, place the element's top-left corner at 50% of the containing block's width and 50% of its height. This means the element is initially centered */
+    color: #2B2927;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* styling overlay subtitle */
+.overlay-subtitle {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute; /* It takes the element out of the normal flow */
+    top: 38%;
+    left: 35%;
+}
+
+.scroll-icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+/* containers with image on left and text on right*/
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* left-centered images */
+.left-image {
+    width: 762px;
+    height: auto;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+/* right centered text and CTA button */
+.right-content {
+    width: 50%;
+    padding-top: 100px;
+    padding-right: 120px;
+    padding-left: 90px;
+
+}
+
+/* styling headers */
+h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 45px;
+    color: #2B2927;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+/* styling paragraphs */
+p {
+    text-align: center;
+    font-size: 30px;
+    color: #2B2927;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+}
+
+/* styling "Find out more" button */
+button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #5F675A;
+    color: #F3F2EB;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 86px;
+    width: 320px;
+    font-size: 35px;
+    margin-left: 250px
+}
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #F3F2EB;
+    font-weight: 500;
+}
+
+ /* container with text on left and image on right */ 
+.container1 {
+    display: flex;
+    max-width: 1920px;
+    margin: 20px;
+}
+
+/* placing text on right */
+.text-left {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 120px;
+    padding-top: 100px;
+    width: 800px;
+    height: auto;
+}
+
+/* image on the right side */
+.image-right {
+    flex: 1; /*items inside will have an equal share of the available space, growing and shrinking as needed. */
+}
+
+/* adjusting image on the right */
+.image-right img {
+    width: 762px;
+    height: auto;
+    padding-right: 120px;
+    padding-top: 100px;
+}
+
+/* adjusting green box */
+.green-box {
+    width: 1920px;
+    height: 836px;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #A1AC9E;
+    margin-top: 80px;
+    padding-top: 100px;
+}
+
+/* styling text inside the green box*/
+.greenbox {
+    color: #F3F2EB;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    
+
+}
+
+.greenbox h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.greenbox p {
+    font-size: 30px;
+} 
+
+strong {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.form-input {
+    margin-top: 30px;
+    font-size: 35px;
+    border: none;
+    border-bottom: 1px solid black; /* Border only at the bottom to create the line effect */
+    
+    outline: none; /* Remove the input focus border */
+    background: transparent; 
+    width: 880px;
+    margin-left: 537px;
+}
+
+/* styling subscribe button*/
+.subscribeButton {
+    background-color: #F8D2C5;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 109px;
+    width: 506px;
+    font-size: 40px;
+    margin-left: 670px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling footer*/
+footer {
+    color: #F3F2EB;
+    height: 324px;
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* adjusting logo in the footer*/
+.footer img {
+    width: 350px;
+    height: auto;
+    margin-left: 150px;
+margin-top: 50px;
+}
+
+/*adjusting SoMe icons*/
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+/*styling SoMe icons*/
+.social-icons img {
+    width: 90px; 
+    height: auto;
+    margin-right: 70px;
+    margin-top: 80px;
+}
+
+/*adjusting nav bar in the footer*/
+nav {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*styling nav bar in the footer*/
+nav a {
+    color: #2B2927;
+    text-decoration: none;
+    margin: 25px 0; /* Add margin between links */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.en {
+    margin-right: -130px;
+
+}

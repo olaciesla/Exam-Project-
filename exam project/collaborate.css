@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1500px;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    background-color: #F3F2EB;
+    font-family: 'Montserrat', sans-serif;
+   }
+   
+   /* styling navigation bar */
+   .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #2B2927;
+    display: flex; /* items display in a row */
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* fixed position of navigation bar */
+   }
+   
+   /* styling text in the navigation bar */
+   .navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 70px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+   }
+   
+   .navbar a:hover {
+       text-decoration: underline;
+   }
+   
+   /* Styling logo */
+   .navbar img {
+    width: auto;
+    height: 90px;
+    padding: none;
+    margin-top: 10px;
+   }
+   
+      /* styling image on top of the website */
+      .homepage-image img {
+       width: 1920px;
+       height: auto;
+      }
+   
+      /* styling overlay text */
+   .overlay-text {
+       position: absolute; /* It takes the element out of the normal flow */
+       top: 33%;
+       left: 50%;
+       transform: translate(-50%, -50%); /* These properties, when used with position: absolute;, place the element's top-left corner at 50% of the containing block's width and 50% of its height. This means the element is initially centered */
+       color: #2B2927;
+       font-size: 80px;
+       font-family: 'Montserrat', sans-serif;
+       font-weight: 500;
+       white-space: nowrap;
+   }
+   
+   /* styling overlay subtitle */
+   .overlay-subtitle {
+       font-size: 30px;
+       font-family: 'Montserrat', sans-serif;
+       position: absolute; /* It takes the element out of the normal flow */
+       top: 38%;
+       left: 42%;
+   }
+
+
+   .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 750px;
+}
+
+.text {
+    flex: 1;
+    padding: 40px;
+    margin-top: -90px;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p, li {
+    font-size: 25px;
+}
+
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 766px;
+    height: 60px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-input1 {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 766px;
+    height: 212px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cta-button {
+    background-color: #F8D2C5;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 90px;
+    width: 400px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 190px;
+}
+
+   /* styling footer*/
+footer {
+    background-color: #A1AC9E;
+    height: 324px;
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+/* adjusting logo in the footer*/
+.footer img {
+    width: 350px;
+    height: auto;
+    margin-left: 150px;
+margin-top: 50px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.social-icons img {
+    width: 90px; 
+    height: auto;
+    margin-right: 70px;
+    margin-top: 80px;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: #2B2927;
+    text-decoration: none;
+    margin: 25px 0; /* Add margin between links */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.en {
+    margin-right: -130px;
+
+}
